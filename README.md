@@ -78,16 +78,9 @@ GEMINI_MODEL=gemini-2.0-flash
 
 ## Running the Server
 
-### Development Mode
-```bash
-uv run uvicorn main:app --host 0.0.0.0 --port 8001 --reload
-```
-
-### Production Mode
 ```bash
 uv run uvicorn main:app --host 0.0.0.0 --port 8001
 ```
-
 The server will start at `http://localhost:8001`
 
 ## Project Structure
